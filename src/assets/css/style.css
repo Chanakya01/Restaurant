@@ -25,6 +25,95 @@
 #FOOTER SECTION
 #RESPONSIVE DESIGN
 */
+/* Card start*/
+.box{
+  padding:60px 0px;
+}
+
+.box-part{
+  background:#FFF;
+  border-radius:0;
+  padding:60px 10px;
+  margin:30px 0px;
+}
+/* Card End*/
+header
+{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font-size: 25px;	
+}
+
+#info
+{
+	font-size: 18px;
+	color: #555;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+a{
+	color: #074E8C;
+}
+
+.scrollbar
+{
+	margin-left: 30px;
+	float: left;
+  height: 400px;
+  width: 1080px;
+	background: rgb(255, 255, 255);
+	overflow-y: scroll;
+	margin-bottom: 25px;
+}
+
+.force-overflow
+{
+	min-height: 450px;
+}
+
+#wrapper
+{
+	text-align: center;
+	width: 500px;
+	margin: auto;
+}
+
+
+
+/*
+ *  STYLE 11
+ */
+
+#style-11::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+#style-11::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-11::-webkit-scrollbar-thumb
+{
+	background-color: #3366FF;
+	border-radius: 10px;
+	background-image: -webkit-linear-gradient(0deg,
+	                                          rgba(255, 255, 255, 0.5) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(255, 255, 255, 0.5) 50%,
+											  rgba(255, 255, 255, 0.5) 75%,
+											  transparent 75%,
+											  transparent)
+}
+
+
+
 
 body {
   background-color: #ffffff;
@@ -181,7 +270,6 @@ img {
 .mu-main-navbar {
   background-color: transparent;
   border: none;
-  padding: 20px 0;
   border-radius: 0;
   margin-bottom: 0;
   -webkit-transition: all 0.5s;
@@ -193,6 +281,7 @@ img {
 
 .mu-main-navbar .mu-main-nav {
   font-family: "Open Sans", sans-serif;
+  font-size: 15px
 }
 
 .mu-main-navbar .mu-main-nav li a {
@@ -217,9 +306,8 @@ img {
   color: #333;
   display: inline-block;
   font-weight: 700;
-  font-size: 35px;  
-  padding: 0;
-  margin-top: 16px;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
   height: 34px;
   width: 180px;
   -webkit-transition: all 0.5s;
@@ -287,7 +375,7 @@ img {
 #mu-slider {
   display: inline;
   float: left;
-  margin-top: 90px;
+  margin-top: 10px;
   width: 100%;
   position: relative;
 }
@@ -439,7 +527,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  padding: 100px 0;
+  padding: 10px 0;
 }
 
 .mu-about-us-area {
@@ -486,7 +574,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -519,7 +607,7 @@ img {
 .mu-counter-overlay {
   background-color: rgba(0, 0, 0, 0.8);
   display: inline;
-  padding: 100px 0;
+  padding: 10px 0;
   float: left;
   width: 100%;
 }
@@ -592,7 +680,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  padding: 100px 0;
+  padding: 20px 0;
 }
 
 .mu-restaurant-menu-area {
@@ -604,7 +692,7 @@ img {
 .mu-restaurant-menu-content {
   display: inline;
   float: left;
-  margin-top: 30px;
+  margin-top: 3px;
   width: 100%;
 }
 
@@ -721,7 +809,7 @@ RESERVATION SECTION
   background-color: #222;
   display: inline;
   float: left;
-  padding: 100px 0;
+  padding: 20px 0;
   width: 100%;
 }
 
@@ -739,21 +827,21 @@ RESERVATION SECTION
   display: inline;
   float: left;
   margin-top: 20px;
-  padding: 0 100px;
+  padding: 0 20px;
   width: 100%;
 }
 
 .mu-reservation-content h3 {
   color: #fff;
   display: inline-block;
-  padding-bottom: 10px;
+  padding-bottom: 6px;
   font-weight: bold;
 }
 
 .mu-reservation-content p {
   color: #fff;
   letter-spacing: 0.5px;
-  padding: 0 50px;
+  padding: 0 10px;
   text-align: center;
 }
 
@@ -915,7 +1003,7 @@ RESERVATION SECTION
 #mu-gallery {
   display: inline;
   float: left;
-  padding: 100px 0;
+  padding: 50px 0;
   width: 100%;
 }
 
@@ -1135,7 +1223,7 @@ RESERVATION SECTION
 #mu-chef {
   display: inline;
   float: left;
-  padding: 100px 0;
+  padding: 20px 0;
   width: 100%;
 }
 
@@ -1279,7 +1367,7 @@ RESERVATION SECTION
   background-color: #f8f8f8;
   display: inline;
   float: left;
-  padding: 100px 0;
+  padding: 50px 0;
   width: 100%;
 }
 
@@ -1516,7 +1604,7 @@ RESERVATION SECTION
   }
 
   .mu-reservation-content {
-    padding: 0;
+    padding: 10px;
   }
 
   .mu-testimonial-slider li .mu-testimonial-single {
@@ -1630,7 +1718,7 @@ RESERVATION SECTION
 
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
     font-size: 16px;
-    margin: 0 5px;
+    margin: 0 2px;
   }
 
   #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-info {
@@ -1726,7 +1814,7 @@ RESERVATION SECTION
   }
 
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li {
-    margin-bottom: 10px;
+    margin-bottom: 1px;
   }
   
   
@@ -1745,11 +1833,11 @@ RESERVATION SECTION
   }
 
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li {
-    margin-bottom: 12px;
+    margin-bottom: 1px;
   }
 
   #mu-about-us {
-    padding: 100px 0 50px;
+    padding: 70px 0 50px;
   }
 
   #mu-restaurant-menu {
@@ -1783,7 +1871,7 @@ RESERVATION SECTION
   }
 
   #mu-contact {
-    padding: 100px 0 50px;
+    padding: 70px 0 50px;
   }
 
   #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-info {
@@ -1807,7 +1895,7 @@ RESERVATION SECTION
 
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left a{
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
   }
 
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left a img {
